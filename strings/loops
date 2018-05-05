@@ -1,0 +1,7 @@
+limit = int(input('enter a number='))
+count = 0
+while (count+1)**2 <= limit:
+    count += 1
+nearest_square = count**2
+print(count)
+print(nearest_square)

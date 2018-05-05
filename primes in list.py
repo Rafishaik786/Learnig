@@ -1,21 +1,23 @@
-mylist = [2, 3, 6, 5, 4, 8, 9, 7, 6, 4, 7, 8, 9, 3, 2, 14, 5, 6]
+myl = eval(input('enter a list='))
 
 
-def eliminate_primes():
-    uniquelist = []
-    for i in mylist():
-        if i not in primelist:
-            uniquelist.append(i)
+def primes_in_list():
+    c = []
+    d = []
+    for i in myl:
+        num = i
+        if num > 1:
+            for i in range(2, num):
+                if (num % i) == 0:
+                    break
+            else:
+                c.append(num)
+    for i in c:
+        if i not in d:
+            d.append(i)
+    print(d)
 
 
-    for ele in primelist:
-            if ele > 1:
-                for i in range(2, ele):
-                    if (ele % i) == 0:
-                        break
-                else:
-                    primelist.append(ele)
-    print(primelist)
+primes_in_list()
 
 
-eliminate_primes()

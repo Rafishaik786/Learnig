@@ -1,6 +1,5 @@
-def iteration():
-    num=2
-    for i in range(2,num+1):
-        print('hello')
-
-iteration()
+lower = int(input('enter the lowest year='))
+higher =int(input('enter the highest year='))
+for year in range(lower,higher+1):
+    if year %4 == 0:
+        print(year)

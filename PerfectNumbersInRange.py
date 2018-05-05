@@ -1,14 +1,14 @@
-def perfectInRange():
+def perfect_in_range():
     lower = int(input('enter lower number:'))
     higher = int(input('enter higher number:'))
     for i in range(lower, higher):
         sum = 0
         temp = i
         for j in range(1, temp):
-            if (temp % j == 0):
+            if temp % j == 0:
                 sum = sum + j
-        if (sum == temp):
+        if sum == temp:
             print(temp,)
 
 
-perfectInRange()
+perfect_in_range()

@@ -1,12 +1,10 @@
 def factorial(n):
-    fact=[]
     k=1
     for i in range(1,n+1):
         k*=i
-        fact.append(k)
-        print(fact)
-        return fact
+    print(k)
 
-factorial(10)
+
+factorial(5)
 
 

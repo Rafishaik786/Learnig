@@ -6,8 +6,7 @@ def prime():
                 print(num,'is not prime number')
                 print(i, "times", num // i, "is", num)
                 break
-        else:
-            print(num,'is prime number' )
+        print(num,'is prime number' )
     else:
         print(num,' is not prime number')
 prime()
