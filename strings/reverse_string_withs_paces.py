@@ -10,3 +10,15 @@ def dinga():
             empty = i+empty
     print(empty)
 
+def reverse():
+    name='my name is rafi'
+    num=list(name)
+    urgent=[]
+    for i in num:
+        if i==' ':
+            urgent.append(' ')
+    print(urgent)
+
+
+reverse()
+
