@@ -27,4 +27,4 @@ def eliminate_repeated():
 gen=eliminate_repeated()
 print(next(gen))
 print(next(gen))
-print(gen)
+print(next(gen))

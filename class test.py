@@ -22,7 +22,7 @@ act=Account()
 act.attack()
 act.check()
 act.anywhere('funny')
-Account.anywhere('rafi')#error
+Account.anywhere('rafi')
 act.somewhere()
 Account.somewhere()
 

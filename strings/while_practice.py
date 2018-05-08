@@ -3,10 +3,12 @@ truck=[]
 weight=0
 for i, j in fruits:
     if weight >= 100:
-       # print('sorry weight out of bounds')
         break
+
     else:
         truck.append(i)
         weight+=j
+        print (weight)
 print(truck)
+print("inside if %d"%j )
 print('truck load weight=',weight)

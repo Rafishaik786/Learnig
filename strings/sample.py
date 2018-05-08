@@ -4,12 +4,7 @@ def pattern():
         for j in range(1,i+1):
             print(' *',end='')
         print()
+
 pattern()
-class poligon(object):
-        name='john'
 
 
-
-poli=poligon()
-setattr(poli,'name','rafi')
-print(poli.name)
